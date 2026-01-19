@@ -1,0 +1,17 @@
+# Sensor parameters
+gemini335:
+  usb_vendor_id: 0x2bc5
+  usb_product_id: 0x0401
+
+hesai_jt128:
+  ip: "192.168.1.201"
+  port: 2368
+
+rtk_um982:
+  serial_name: "/dev/ttyUSB0"
+  baudrate: 115200
+
+# ROS node parameters
+node:
+  loop_rate: 10  # Hz
+  frame_id: "base_link"

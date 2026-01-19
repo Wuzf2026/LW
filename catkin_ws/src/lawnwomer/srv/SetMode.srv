@@ -1,0 +1,6 @@
+# Request: Set working mode (0:idle,1:mowing,2:charging)
+int8 mode
+---
+# Response: Mode set result
+bool success
+string message

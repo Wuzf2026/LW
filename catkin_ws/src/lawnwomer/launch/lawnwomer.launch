@@ -1,0 +1,11 @@
+<launch>
+    <!-- Load parameters -->
+    <param name="$(find lawnwomer)/config/params.yaml" command="cat $(find lawnwomer)/config/params.yaml" />
+
+    <!-- Core node -->
+    <node name="lawnwomer_node" pkg="lawnwomer" type="lawnwomer_node" output="screen" />
+
+    <!-- Test nodes -->
+    <node name="rtk_test_node" pkg="lawnwomer" type="test_serial.py" output="screen" />
+    <node name="hesai_test_node" pkg="lawnwomer" type="test_hesai.py" output="screen" />
+</launch>

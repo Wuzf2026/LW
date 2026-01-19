@@ -1,0 +1,32 @@
+lcatkin_ws/
+©À©¤©¤ src/
+©¦   ©À©¤©¤ lawnwomer/                # Core package
+©¦   ©¦   ©À©¤©¤ CMakeLists.txt
+©¦   ©¦   ©À©¤©¤ package.xml
+©¦   ©¦   ©À©¤©¤ include/              # Header files
+©¦   ©¦   ©¦   ©À©¤©¤ lawnwomer/
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤ gemini335_driver.h
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤ hesai_jt128_driver.h
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤ rtk_um982_driver.h
+©¦   ©¦   ©À©¤©¤ src/                  # Source files
+©¦   ©¦   ©¦   ©À©¤©¤ gemini335_driver.c
+©¦   ©¦   ©¦   ©À©¤©¤ hesai_jt128_driver.c
+©¦   ©¦   ©¦   ©À©¤©¤ rtk_um982_driver.c
+©¦   ©¦   ©¦   ©À©¤©¤ main_node.cpp     # ROS core node
+©¦   ©¦   ©À©¤©¤ msg/                  # Custom ROS messages
+©¦   ©¦   ©¦   ©À©¤©¤ RTKData.msg
+©¦   ©¦   ©À©¤©¤ srv/                  # Custom ROS services
+©¦   ©¦   ©¦   ©À©¤©¤ SetMode.srv
+©¦   ©¦   ©À©¤©¤ config/               # Configuration files
+©¦   ©¦   ©¦   ©À©¤©¤ params.yaml
+©¦   ©¦   ©À©¤©¤ scripts/              # Python test scripts
+©¦   ©¦   ©¦   ©À©¤©¤ test_serial.py
+©¦   ©¦   ©¦   ©À©¤©¤ test_hesai.py
+©¦   ©¦   ©À©¤©¤ launch/               # Launch files
+©¦   ©¦   ©¦   ©À©¤©¤ lawnwomer.launch
+©¦   ©¦   ©À©¤©¤ third_party/          # External SDKs
+©¦   ©¦   ©¦   ©À©¤©¤ gemini335_sdk/    # From LW.git
+©¦   ©¦   ©¦   ©À©¤©¤ hesai_jt128_sdk/  # From LW.git
+©¦   ©¦   ©¦   ©À©¤©¤ rtk_um982_sdk/    # From LW.git
+©À©¤©¤ devel/
+©À©¤©¤ build/
