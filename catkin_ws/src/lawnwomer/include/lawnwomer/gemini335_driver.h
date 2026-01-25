@@ -9,8 +9,6 @@
 #ifndef GEMINI335_DRIVER_H
 #define GEMINI335_DRIVER_H
 
-#include "third_party/gemini335_sdk/gemini335_api.h"
-
 #define GEMINI335_USB_VENDOR_ID 0x2bc5
 #define GEMINI335_USB_PRODUCT_ID 0x0401
 

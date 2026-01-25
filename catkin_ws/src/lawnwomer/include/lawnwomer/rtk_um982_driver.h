@@ -9,8 +9,6 @@
 #ifndef RTK_UM982_DRIVER_H
 #define RTK_UM982_DRIVER_H
 
-#include "third_party/rtk_um982_sdk/um982_api.h"
-
 #define RTK_UM982_DEFAULT_BAUDRATE 115200
 #define RTK_UM982_DEFAULT_SERIAL "/dev/ttyUSB0"
 

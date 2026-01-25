@@ -9,8 +9,6 @@
 #ifndef HESAI_JT128_DRIVER_H
 #define HESAI_JT128_DRIVER_H
 
-#include "third_party/hesai_jt128_sdk/hesai_lidar_api.h"
-
 #define HESAI_JT128_DEFAULT_IP "192.168.1.201"
 #define HESAI_JT128_DEFAULT_PORT 2368
 
