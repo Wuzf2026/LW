@@ -1,6 +1,6 @@
-# Request: Set working mode (0:idle,1:mowing,2:charging)
-int8 mode
+# Request: set sensor mode
+int32 mode             # Mode value (sensor-specific)
 ---
-# Response: Mode set result
-bool success
-string message
+# Response
+bool success           # True if success
+string msg             # Status message
